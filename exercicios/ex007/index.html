@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias do html</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir essa imagens em varios dispositivos</p>
+</body>
+
+<picture>
+    <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+<source media="(max-width: 1000px)" srcset="imagens/fotom.png" type="image/png">
+
+    <img src="imagens/fotog.png" alt="imagem flexivel">
+</picture>
+<h1>colocando audio</h1>
+
+<audio    preload="metadata" autoplay controls loop>
+    <source src="midia/musicaambiente.mp3" type="audio/mpeg">
+    <p>infelizmente seu navegador não é compativel <a href="midia/musicaambiente.mp3">clique para abaixar o audio</a></p>
+</audio>
+
+
+
+</audio>
+    
+</body>
+</html>
