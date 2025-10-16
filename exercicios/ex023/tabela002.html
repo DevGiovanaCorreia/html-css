@@ -10,10 +10,18 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
         }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
         thead , tfoot{
             background-color: rgb(191, 31, 235);
@@ -31,10 +39,11 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População dos estados</caption>
         <thead>
  <tr>
-    <th>Estado</th>
-    <th>População</th>
+    <th scope="col">Estado</th>
+    <th scope="col" style="width: 150px;">População</th>
  </tr>
         </thead>
     
@@ -151,7 +160,7 @@
 
         <tfoot>
  <tr>
-    <th>Total habitantes</th>
+    <th scope="row">Total habitantes</th>
     <td class="num"><strong>210.147.125</strong></td>
  </tr>
         </tfoot>
