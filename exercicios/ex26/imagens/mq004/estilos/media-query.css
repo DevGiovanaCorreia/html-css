@@ -57,7 +57,7 @@ img#tv{
 
 @media  screen and(min-width: 768px) {
     body{
-        background-image: url(../imagens/back-tablet.jpg);
+        background-image: url(../imagem/back-tablet.jpg);
     }
 
    img{
@@ -84,7 +84,7 @@ img#tv{
 
 @media screen and (min-width:992px) and(max-width:1200px) {
     body{
-        background-image: url(../imagens/back-pc.jpg);
+        background-image: url(../imagem/back-pc.jpg);
     }
 
     img{
@@ -111,7 +111,7 @@ img#tv{
 
 @media screen and(min-width:1200px){
 body{
-    background-image: url(../imagens/back-tv.jpg);
+    background-image: url(../imagem/back-tv.jpg);
 }
 
 img{
